@@ -1,0 +1,11 @@
+bigquery:
+  data:
+    project: com-belka-analytics-test
+    keyFile: mock-test-key.json
+  streaming:
+    enabled: true
+    streamingManagerPoolSize: 100
+    asyncStreamingDelay: 10
+  snapshotting:
+    enabled: true
+    logTableDataset: dev
